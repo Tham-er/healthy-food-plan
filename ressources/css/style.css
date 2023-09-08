@@ -4,10 +4,14 @@
     box-sizing: border-box;
 }
 
+
+/* header */
+
 .main-header{
     width: 100%;
     padding: 20px;
 }
+
 
 .plan-title{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -16,6 +20,10 @@
     text-align: center;
     margin-bottom: 40px;
 }
+
+/* --------------------------------------------------------*/
+
+/* main section */
 
 .meal-plan{
     margin: 0 auto;
@@ -38,3 +46,50 @@
     text-decoration: none;
     font-size: larger;
 }
+
+/* --------------------------------------------------------*/
+
+/* Tables section*/
+
+.nutritional-info{
+    width: 100%;
+}
+
+caption{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 40px;
+    margin-bottom: 40px;
+    
+}
+
+/* Styles for array class */
+.food-table {
+    width: 50%; /* width of table */
+    margin: 0 auto; /* Center the table horizontally */
+    border-collapse: collapse;
+    font-family: Arial, sans-serif;
+}
+
+/* Styles for table cells (<td>) */
+.food-table td {
+    padding: 10px;
+    border: 1px solid #ccc;
+    text-align: left;
+}
+
+/* Styles for table headers (<th>) */
+.food-table th {
+    background-color: #f2f2f2; /* Grey background color for headers */
+    padding: 10px;
+    border: 1px solid #ccc;
+    text-align: left;
+}
+
+/* Styles for even lines (alternating colors) */
+.food-table tr:nth-child(even) {
+    background-color: #f9f9f9; /* Background color for even lines */
+}
+
+/* --------------------------------------------------------*/
+
+
